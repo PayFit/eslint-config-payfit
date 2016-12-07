@@ -22,6 +22,8 @@ module.exports = {
     "eqeqeq": 0,
     "no-plusplus": 0,
     "strict": 0,
+    "newline-before-return": "error",
+    "eol-last": ["error", "always"],
     "semi": [2, "never"],
     "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
     "no-underscore-dangle": ["error", { "allow": ["_extend", "_id", "__super__"] }],
