@@ -11,7 +11,7 @@ module.exports = {
   },
   "rules": {
     "no-use-before-define": [2, "nofunc"],
-    "max-len": [2, 90, 4],
+    "max-len": [2, 100, 4],
     "new-cap": 0,
     "no-param-reassign": 0,
     "consistent-return": 0,
