@@ -25,7 +25,6 @@ module.exports = {
     "eol-last": ["error", "always"],
     "semi": [2, "never"],
     "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
-    "no-underscore-dangle": ["error", { "allow": ["_extend", "_id", "__super__", "_source"] }],
     "space-before-function-paren": ["error", "never"],
     "global-require": 0,
     "import/no-unresolved": 0,
