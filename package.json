@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/PayFit/eslint-config-payfit#readme",
   "dependencies": {
-    "eslint-config-airbnb": "11.2.0"
+    "eslint-config-airbnb": "15.1.0"
   },
   "peerDependencies": {
-    "babel-eslint": ">= 7.1.1",
-    "eslint": ">= 3.10.2",
-    "eslint-plugin-import": ">= 1.16.0",
-    "eslint-plugin-jsx-a11y": ">= 2.2.3",
-    "eslint-plugin-react": ">= 6.7.1"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0 || ^4.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
