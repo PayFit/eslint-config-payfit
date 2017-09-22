@@ -1,10 +1,6 @@
 module.exports = {
   "extends": "airbnb",
   "parser": "babel-eslint",
-  "plugins": [
-    "react",
-    "jsx-a11y"
-  ],
   "rules": {
     "no-use-before-define": [2, "nofunc"],
     "max-len": [2, 100, 4],
