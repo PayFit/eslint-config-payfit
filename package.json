@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payfit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Payfit Eslint Configuration",
   "main": "index.js",
   "scripts": {
