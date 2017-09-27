@@ -10,7 +10,8 @@ module.exports = {
     "jsx-a11y/no-static-element-interactions": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "react/forbid-prop-types": "off",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "react/no-array-index-key": "warn"
   },
   "env": {
     "browser": true,
