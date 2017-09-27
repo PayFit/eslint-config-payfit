@@ -3,6 +3,8 @@ module.exports = {
   "parser": "babel-eslint",
   "rules": {
     "arrow-parens": ["error", "as-needed"],
+    "no-use-before-define": "off",
+    "no-return-assign": ["error", "except-parens"],
     "comma-dangle": "off",
     "semi": ["error", "never"],
     "no-underscore-dangle": ["error", { "allow": ["_extend", "_id", "__super__", "_source"] }],
