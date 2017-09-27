@@ -2,6 +2,7 @@ module.exports = {
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
+    "arrow-parens": "as-needed",
     "comma-dangle": "off",
     "semi": ["error", "never"],
     "no-underscore-dangle": ["error", { "allow": ["_extend", "_id", "__super__", "_source"] }],
