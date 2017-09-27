@@ -9,7 +9,8 @@ module.exports = {
     "jsx-quotes": ["error", "prefer-single"],
     "jsx-a11y/no-static-element-interactions": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
-    "react/forbid-prop-types": "off"
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off"
   },
   "env": {
     "browser": true,
