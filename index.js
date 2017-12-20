@@ -19,6 +19,7 @@ module.exports = {
       specialLink: ['to'],
       aspects: ['noHref', 'invalidHref', 'preferButton'],
     }],
+    "jsx-a11y/no-autofocus": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "react/forbid-prop-types": "off",
     "react/require-default-props": "off",
