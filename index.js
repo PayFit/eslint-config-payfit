@@ -1,6 +1,9 @@
 module.exports = {
   "extends": "airbnb",
   "parser": "babel-eslint",
+  "plugins": [
+    "lodash-fp"
+  ],
   "rules": {
     "comma-dangle": "off",
     "semi": ["error", "never"],
