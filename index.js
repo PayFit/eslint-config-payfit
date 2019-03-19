@@ -40,4 +40,5 @@ module.exports = {
     __COVERAGE__: false,
     __BASENAME__: false,
   },
+
 }
