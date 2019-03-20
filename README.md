@@ -2,12 +2,12 @@
 
 #### Edit .eslintrc
 ```
-"extends": [payfit", "payfit/rules/security"],
+"extends": [payfit", "payfit/security"],
 ```
 
 #### Dependencies
 ```
-npm info "eslint-config-payfit@1.2.0-security.0" peerDependencies
+npm info "eslint-config-payfit" peerDependencies
 
 { 
 "eslint": "^5.3.0",
