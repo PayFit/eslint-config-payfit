@@ -18,7 +18,7 @@ module.exports = {
     'jsx-a11y/mouse-events-have-key-events': 'off',
     'jsx-a11y/label-has-for': 'off',
     'jsx-a11y/no-autofocus': 'off',
-    
+
     // react
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'react/forbid-prop-types': 'off',
