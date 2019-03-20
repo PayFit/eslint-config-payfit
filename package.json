@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payfit",
-  "version": "1.1.0-security.8",
+  "version": "1.1.0-security.9",
   "description": "PayFit ESLint Configuration",
   "main": "index.js",
   "repository": {
