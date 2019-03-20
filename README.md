@@ -2,7 +2,7 @@
 
 #### Edit .eslintrc
 ```
-"extends": [payfit","payfit/rules/security"],
+"extends": [payfit", "payfit/rules/security"],
 ```
 
 #### Dependencies
