@@ -2,36 +2,36 @@
   "name": "eslint-config-payfit",
   "version": "1.1.0-security.9",
   "description": "PayFit ESLint Configuration",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PayFit/eslint-config-payfit.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
     "security"
   ],
-  "author": "Payfit Tech",
-  "license": "ISC",
+  "homepage": "https://github.com/PayFit/eslint-config-payfit#readme",
   "bugs": {
     "url": "https://github.com/PayFit/eslint-config-payfit/issues"
   },
-  "homepage": "https://github.com/PayFit/eslint-config-payfit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PayFit/eslint-config-payfit.git"
+  },
+  "license": "ISC",
+  "author": "Payfit Tech",
+  "main": "index.js",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
   },
   "peerDependencies": {
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-no-unsanitized": "^3.0.2",
     "eslint-plugin-react": "^7.11.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.3.0",
-    "eslint-plugin-no-unsanitized": "^3.0.2",
     "eslint-plugin-xss": "^0.1.9"
-  },
-  "devDependencies": {
-    "prettier": "^1.14.2"
   }
 }

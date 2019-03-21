@@ -2,7 +2,6 @@ module.exports = {
     plugins: ['sonarjs', 'security', 'no-unsanitized', 'xss'],
     extends: ['plugin:sonarjs/recommended', 'plugin:security/recommended'],
     rules: {
-    // PayFit Security Config
     // Cross-Site Scripting
     'xss/no-location-href-assign': 'warn', // in the future, raise to error with specific escape function
     'no-unsanitized/method': 'warn',
@@ -45,19 +44,5 @@ module.exports = {
     'sonarjs/prefer-object-literal': 'error',
     'sonarjs/prefer-single-boolean-return': 'error',
     'sonarjs/prefer-while': 'error',
-    },
-    env: {
-        browser: true,
-        node: true,
-        es6: true,
-    },
-    globals: {
-        $env: false,
-        window: true,
-        __DEV__: false,
-        __PROD__: false,
-        __DEBUG__: false,
-        __COVERAGE__: false,
-        __BASENAME__: false,
     },
 }
