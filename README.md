@@ -1,15 +1,17 @@
 ## eslint-config-payfit
 
 #### Edit .eslintrc
+
 ```
 "extends": ["payfit", "payfit/security"],
 ```
 
 #### Dependencies
-```
-npm info "eslint-config-payfit" peerDependencies
 
-{ 
+```
+npx install-peerdeps --dev eslint-config-payfit
+
+{
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
