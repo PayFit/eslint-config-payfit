@@ -1,13 +1,13 @@
 module.exports = {
-    extends: 'airbnb',
-    rules: {
+  extends: 'airbnb',
+  rules: {
     // base
     'comma-dangle': 'off',
     semi: ['error', 'never'],
     'arrow-parens': ['error', 'as-needed'],
     'no-use-before-define': 'off',
     'no-underscore-dangle': [
-    'error',
+      'error',
       { allow: ['_extend', '_id', '__super__', '_source'] },
     ],
     'jsx-quotes': ['error', 'prefer-single'],
