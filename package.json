@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payfit",
-  "version": "1.2.0-security.0",
+  "version": "1.2.0-security.1",
   "description": "PayFit ESLint Configuration",
   "keywords": [
     "eslint",
