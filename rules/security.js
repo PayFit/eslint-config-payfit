@@ -6,6 +6,7 @@ module.exports = {
     'xss/no-location-href-assign': 'warn', // need to specify an escape function
     'no-unsanitized/method': 'warn',
     'no-unsanitized/property': 'warn',
+
     // Bug Detection
     'sonarjs/no-all-duplicated-branches': 'warn',
     'sonarjs/no-element-overwrite': 'warn',
@@ -27,10 +28,11 @@ module.exports = {
     'security/detect-possible-timing-attacks': 'off',
     'security/detect-pseudoRandomBytes': 'warn',
     'security/detect-new-buffer': 'warn',
+
     // Code Smell Detection
     'sonarjs/cognitive-complexity': ['warn', 90],
     'sonarjs/max-switch-cases': 'warn',
-    'sonarjs/no-duplicate-string': ['warn', 100],
+    'sonarjs/no-duplicate-string': 'off',
     'sonarjs/no-duplicated-branches': 'warn',
     'sonarjs/no-identical-functions': 'off',
     'sonarjs/no-inverted-boolean-check': 'warn',
