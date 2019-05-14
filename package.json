@@ -1,8 +1,12 @@
 {
 	"name": "eslint-config-payfit",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "PayFit ESLint Configuration",
-	"keywords": [ "eslint", "eslintconfig", "security" ],
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"security"
+	],
 	"homepage": "https://github.com/PayFit/eslint-config-payfit#readme",
 	"bugs": {
 		"url": "https://github.com/PayFit/eslint-config-payfit/issues"
