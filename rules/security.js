@@ -15,7 +15,7 @@ module.exports = {
     'sonarjs/no-identical-expressions': 'warn',
     'sonarjs/no-one-iteration-loop': 'warn',
     'sonarjs/no-use-of-empty-return-value': 'warn',
-    'security/detect-unsafe-regex': 'warn',
+    'security/detect-unsafe-regex': 'off',
     'security/detect-buffer-noassert': 'warn',
     'security/detect-child-process': 'warn',
     'security/detect-disable-mustache-escape': 'warn',
