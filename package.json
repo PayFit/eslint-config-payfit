@@ -22,7 +22,7 @@
     "eslint-config-airbnb": "^18.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "1.19.1"
   },
   "peerDependencies": {
     "eslint": "^6.6.0",
