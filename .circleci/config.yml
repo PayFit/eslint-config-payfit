@@ -1,0 +1,60 @@
+version: 2.1
+
+executors:
+  node:
+    docker:
+      - image: circleci/node:12.16.1
+
+jobs:
+  install_dependencies:
+    executor: node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: '.'
+      - restore_cache:
+          keys:
+            - dependency-cache-{{ checksum "yarn.lock" }}
+            - dependency-cache-
+      - run:
+          name: Install dependencies
+          command: yarn --frozen-lockfile
+      - save_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - node_modules
+
+  tag_and_release:
+    executor: node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: Tag, build and publish package
+          command: npm run semantic-release
+
+workflows:
+  build-and-release:
+    jobs:
+      - install_dependencies:
+          name: install_dependencies
+          context: GLOBAL_ORG
+          filters:
+            branches:
+              only:
+                - master
+
+      - tag_and_release:
+          name: tag_and_release
+          context: GLOBAL_ORG
+          requires:
+            - install_dependencies
+          filters:
+            branches:
+              only:
+                - master
