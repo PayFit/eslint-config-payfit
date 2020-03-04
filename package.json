@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payfit",
-  "version": "2.0.1",
+  "version": "0.0.0-semantic-release",
   "description": "PayFit ESLint Configuration",
   "keywords": [
     "eslint",
@@ -18,11 +18,21 @@
   "license": "ISC",
   "author": "Payfit Tech",
   "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1",
+    "semantic-release": "17.0.4"
   },
   "peerDependencies": {
     "eslint": "^6.6.0",
@@ -34,5 +44,10 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-xss": "^0.1.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
