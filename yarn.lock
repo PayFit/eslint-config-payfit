@@ -328,7 +328,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@payfit/semantic-release-package-config@^3.0.0":
+"@payfit/semantic-release-package-config@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@payfit/semantic-release-package-config/-/semantic-release-package-config-3.0.0.tgz#42067d2521fdb561e3eff44ed38733dba1600a2e"
   integrity sha512-yZbrfvJPhxSDqIMBYcoF0bJS6mdgTAJoRM4N6ChI8TlXnT11RgCDVQQHAYrPigOi+azgtqJzkRyVnk/CAnVatA==
