@@ -2,14 +2,54 @@
 
 # eslint-config-payfit
 
-## Edit .eslintrc
+## How to install
 
-```
-"extends": ["payfit", "payfit/security"],
-```
-
-## Dependencies
-
-```
+```sh
 npx install-peerdeps --dev eslint-config-payfit
+```
+
+## How to use
+
+### Required configuration
+
+This configuration adds the common javascript rules.
+Edit your .eslintrc file:
+
+```
+{
+    "extends": ["payfit"],
+}
+```
+
+### Browser configuration
+
+This configuration adds the common javascript rules and the browser rules (react for example).
+Edit your .eslintrc file:
+
+```
+{
+    "extends": ["payfit", "payfit/react"],
+}
+```
+
+### Nodejs configuration
+
+This configuration adds the common javascript rules and the nodejs rules.
+Edit your .eslintrc file:
+
+```
+{
+    "extends": ["payfit", "payfit/node"],
+}
+```
+
+### Testing configuration
+
+This configuration adds the common javascript rules and the jest rules.
+Edit your .eslintrc file:
+
+```
+{
+    "extends": ["payfit", "payfit/jest"],
+}
 ```
