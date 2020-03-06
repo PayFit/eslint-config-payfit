@@ -17,7 +17,7 @@ Edit your .eslintrc file:
 
 ```
 {
-    "extends": ["payfit"],
+    "extends": ["payfit"]
 }
 ```
 
@@ -28,7 +28,7 @@ Edit your .eslintrc file:
 
 ```
 {
-    "extends": ["payfit", "payfit/react"],
+    "extends": ["payfit", "payfit/react"]
 }
 ```
 
@@ -39,7 +39,7 @@ Edit your .eslintrc file:
 
 ```
 {
-    "extends": ["payfit", "payfit/node"],
+    "extends": ["payfit", "payfit/node"]
 }
 ```
 
@@ -50,6 +50,6 @@ Edit your .eslintrc file:
 
 ```
 {
-    "extends": ["payfit", "payfit/jest"],
+    "extends": ["payfit", "payfit/jest"]
 }
 ```
