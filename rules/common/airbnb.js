@@ -2,7 +2,7 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: ['eslint:recommended'],
+  extends: ['airbnb-base'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -19,6 +19,19 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
       ],
+      rules: {
+        'import/extensions': [
+          'error',
+          'ignorePackages',
+          {
+            js: 'never',
+            mjs: 'never',
+            jsx: 'never',
+            ts: 'never',
+            tsx: 'never',
+          },
+        ],
+      },
     },
   ],
 }

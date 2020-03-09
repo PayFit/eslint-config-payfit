@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './rules/common/eslint',
+    './rules/common/airbnb',
     './rules/common/import',
     './rules/common/prettier',
     './rules/common/comments',

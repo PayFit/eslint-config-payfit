@@ -2,23 +2,15 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: ['react-hooks'],
-  extends: ['plugin:react/recommended'],
+  plugins: ['airbnb'],
   settings: {
     react: {
       version: 'detect',
     },
   },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
   rules: {
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error',
     'react/jsx-filename-extension': [
-      1,
+      'error',
       {
         extensions: ['.jsx', '.tsx'],
       },
