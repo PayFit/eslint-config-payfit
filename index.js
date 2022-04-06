@@ -5,5 +5,6 @@ module.exports = {
     './rules/common/prettier',
     './rules/common/comments',
     './rules/common/sonarjs',
+    './rules/common/no-mongo-objectid',
   ],
 }
