@@ -26,6 +26,16 @@ jobs:
           paths:
             - node_modules
 
+  test:
+    executor: node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: Run local rules tests
+          command: npm run test
+
   tag_and_release:
     executor: node
     steps:
@@ -46,6 +56,10 @@ workflows:
             branches:
               only:
                 - master
+
+      - test:
+          name: test
+          context: GLOBAL_ORG
 
       - tag_and_release:
           name: tag_and_release
