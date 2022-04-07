@@ -33,7 +33,7 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-          name: Run local eslint rules tests
+          name: Run local eslint plugins tests
           command: npm run test
 
   tag_and_release:
