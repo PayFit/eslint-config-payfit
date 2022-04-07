@@ -33,7 +33,7 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-          name: Run local rules tests
+          name: Run local eslint rules tests
           command: npm run test
 
   tag_and_release:
@@ -52,14 +52,12 @@ workflows:
       - install_dependencies:
           name: install_dependencies
           context: GLOBAL_ORG
-          filters:
-            branches:
-              only:
-                - master
 
       - test:
           name: test
           context: GLOBAL_ORG
+          requires:
+            - install_dependencies
 
       - tag_and_release:
           name: tag_and_release
