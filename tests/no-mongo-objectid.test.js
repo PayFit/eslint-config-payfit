@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require('../rules/common/no-mongo-objectid'),
+const rule = require('../plugins/no-mongo-objectid'),
   RuleTester = require('eslint').RuleTester
 
 //------------------------------------------------------------------------------
