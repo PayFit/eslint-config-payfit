@@ -26,16 +26,6 @@ jobs:
           paths:
             - node_modules
 
-  test:
-    executor: node
-    steps:
-      - checkout
-      - attach_workspace:
-          at: '.'
-      - run:
-          name: Run local eslint plugins tests
-          command: npm run test
-
   tag_and_release:
     executor: node
     steps:
@@ -52,12 +42,6 @@ workflows:
       - install_dependencies:
           name: install_dependencies
           context: GLOBAL_ORG
-
-      - test:
-          name: test
-          context: GLOBAL_ORG
-          requires:
-            - install_dependencies
 
       - tag_and_release:
           name: tag_and_release
