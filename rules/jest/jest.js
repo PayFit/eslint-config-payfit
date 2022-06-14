@@ -4,4 +4,7 @@ module.exports = {
   },
   plugins: ['jest'],
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+  rules: {
+    'jest/prefer-to-be-null': 'error',
+  },
 }
