@@ -23,7 +23,7 @@ module.exports = {
     'sonarjs/no-useless-catch': 'warn',
     'sonarjs/prefer-immediate-return': 'off',
     'sonarjs/prefer-object-literal': 'warn',
-    'sonarjs/prefer-single-boolean-return': 'warn',
+    'sonarjs/prefer-single-boolean-return': 'error',
     'sonarjs/prefer-while': 'warn',
   },
 }
