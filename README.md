@@ -1,3 +1,12 @@
+
+<================================================>
+<================= [DEPRECATED] =================>
+<================================================>
+
+
+Note: This configuration has been deprecated in favor of https://github.com/PayFit/core-packages/tree/master/packages/eslint-config
+
+
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 # eslint-config-payfit
