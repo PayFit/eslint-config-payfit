@@ -18,8 +18,21 @@
   "license": "ISC",
   "author": "Payfit Tech",
   "main": "index.js",
+  "files": [
+    "package.json",
+    "rules",
+    "index.js",
+    "node.js",
+    "react.js",
+    "jest.js"
+  ],
   "scripts": {
     "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.1",
@@ -49,20 +62,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.0.0 || ^3.0.0 || ^4.0.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
     "eslint-plugin-xss": "^0.1.9"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "files": [
-    "package.json",
-    "rules",
-    "index.js",
-    "node.js",
-    "react.js",
-    "jest.js"
-  ]
+  }
 }
