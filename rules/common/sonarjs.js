@@ -16,7 +16,7 @@ module.exports = {
     'sonarjs/max-switch-cases': 'warn',
     'sonarjs/no-duplicate-string': 'off',
     'sonarjs/no-duplicated-branches': 'warn',
-    'sonarjs/no-identical-functions': 'off',
+    'sonarjs/no-identical-functions': 'warn',
     'sonarjs/no-inverted-boolean-check': 'warn',
     'sonarjs/no-redundant-boolean': 'warn',
     'sonarjs/no-small-switch': 'warn',
